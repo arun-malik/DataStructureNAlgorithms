@@ -1,0 +1,1 @@
+./Debug/BubbleSort.o ./Debug/insertionsort.o ./Debug/SelectionSort.o ./Debug/Tester.o
