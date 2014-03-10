@@ -1,9 +1,6 @@
 package com.java.dsnaoa;
 
 import java.util.HashSet;
-import java.util.List;
-
-import jdk.nashorn.internal.ir.LiteralNode.ArrayLiteralNode.ArrayUnit;
 
 public class DummyDataClass {
 
@@ -100,5 +97,7 @@ public class DummyDataClass {
 		
 		System.out.println("String is Palindrome");
 	}
+	
+	
 
 }
