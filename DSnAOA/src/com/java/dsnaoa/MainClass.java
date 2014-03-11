@@ -15,38 +15,44 @@ public class MainClass {
 		List<String>  results = new ArrayList<String>();
 
 		//BinaryTreeUsingLinkList
-		BinaryTreeUsingLinkList bt = new BinaryTreeUsingLinkList();
+//		BinaryTreeUsingLinkList bt = new BinaryTreeUsingLinkList();
 
-		bt.traverseInOrder();
-		bt.traversePreOrder();
-		bt.traversePostOrder();
+//		bt.traverseInOrder();
+//		bt.traversePreOrder();
+//		bt.traversePostOrder();
 
-		bt.insert(50);
-		bt.insert(30);
-		bt.insert(70);
-		bt.insert(40);
-		bt.insert(15);
-		bt.insert(35);
-		bt.insert(45);
-		bt.insert(80);
-		bt.insert(75);
-		bt.insert(72);
-
-		bt.traverseInOrder();
-		bt.traversePreOrder();
-		bt.traversePostOrder();
-
-		bt.deleteNode(70);
-
-		bt.traverseInOrder();
-		bt.traversePreOrder();
-		bt.traversePostOrder();
+//		bt.insert(50);
+//		bt.insert(30);
+//		bt.insert(70);
+//		bt.insert(40);
+//		bt.insert(15);
+//		bt.insert(35);
+//		bt.insert(45);
+//		bt.insert(80);
+//		bt.insert(75);
+//		bt.insert(72);
+//
+//		bt.traverseInOrder();
+//		bt.traversePreOrder();
+//		bt.traversePostOrder();
 		
-		bt.deleteNode(50);
+//		bt.findNodeAtDistanceFromLeaf(1);
+		
+//		bt.height();
+//		bt.levelOrder();
+//		bt.isBalanced();
 
-		bt.traverseInOrder();
-		bt.traversePreOrder();
-		bt.traversePostOrder();
+//		bt.deleteNode(70);
+//
+//		bt.traverseInOrder();
+//		bt.traversePreOrder();
+//		bt.traversePostOrder();
+//		
+//		bt.deleteNode(50);
+//
+//		bt.traverseInOrder();
+//		bt.traversePreOrder();
+//		bt.traversePostOrder();
 
 
 		//		//Bubble Sort 
@@ -73,6 +79,12 @@ public class MainClass {
 		//		QuickSort quickObj = new QuickSort();
 		//		quickObj.doQuickSort(worstCase, DummyDataClass.WorseCase);// O(n2)
 		//		quickObj.doQuickSort(bestCase, DummyDataClass.BestCase);// best / avg : O(n log n)
+		
+				//Pan Cake Sort
+				PanCakeSort pancakeObj = new PanCakeSort();
+//				pancakeObj.doPanCakeSort(worstCase, DummyDataClass.WorseCase);
+//				pancakeObj.doPanCakeSort(worstCase, DummyDataClass.BestCase);
+//				pancakeObj.doPanCakeSort(worstCase, DummyDataClass.AvgCase);
 
 		//		//Binary Search
 		//		BinarySearch binSrchObj = new BinarySearch();
@@ -107,9 +119,9 @@ public class MainClass {
 		//		listObj.printListElements();
 		//		System.out.println("List getting 6th Element: "+ listObj.getElementByIndex(6) +" Default Internal Size :" +listObj.getSize() + " List Elements Count : "+listObj.getCount() );
 
-		//		//Fibonacci Series
-		//		FibbonacciSeries fibObj = new FibbonacciSeries();
-		//		fibObj.generateFibbonacciSeries(11,55);
+				//Fibonacci Series
+				FibbonacciSeries fibObj = new FibbonacciSeries();
+				fibObj.generateFibbonacciSeries(11,55);
 
 		//		//Eliminate a Words from sentence
 		//		String sentence = "This is a dummy sentence to check elimination of words.";
