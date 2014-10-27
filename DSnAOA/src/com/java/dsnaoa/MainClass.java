@@ -120,8 +120,8 @@ public class MainClass {
 		//		System.out.println("List getting 6th Element: "+ listObj.getElementByIndex(6) +" Default Internal Size :" +listObj.getSize() + " List Elements Count : "+listObj.getCount() );
 
 				//Fibonacci Series
-				FibbonacciSeries fibObj = new FibbonacciSeries();
-				fibObj.generateFibbonacciSeries(11,55);
+//				FibbonacciSeries fibObj = new FibbonacciSeries();
+//				fibObj.generateFibbonacciSeries(11,55);
 
 		//		//Eliminate a Words from sentence
 		//		String sentence = "This is a dummy sentence to check elimination of words.";
@@ -132,7 +132,43 @@ public class MainClass {
 		//		DummyDataClass.checkPalindrome("asddsa");
 
 
-
+				//Stack Implementation 
+//				StackUsingArray<Integer> stack = new StackUsingArray<Integer>(1);
+//				stack.peek();
+//				stack.push(100);
+//				stack.peek();
+//				stack.push(200);
+//				stack.peek();
+//				stack.pull();
+//				stack.peek();
+//				stack.pull();
+//				stack.peek();
+				
+				//Queue Implementation
+//				QueueUsingArray<Integer> queue = new QueueUsingArray<Integer>(3);
+//				queue.peek();
+//				queue.enQueue(100);
+//				queue.peek();
+//				queue.enQueue(200);
+//				queue.peek();
+//				queue.enQueue(300);
+//				queue.peek();
+//				queue.enQueue(400);
+//				queue.peek();
+//				queue.enQueue(500);
+//				queue.peek();
+//				queue.deQueue();
+//				queue.peek();
+//				queue.deQueue();
+//				queue.peek();
+//				queue.deQueue();
+//				queue.peek();
+//				queue.deQueue();
+//				queue.peek();
+//				queue.deQueue();
+//				queue.peek();
+//				queue.deQueue();
+//				queue.peek();
 
 
 
